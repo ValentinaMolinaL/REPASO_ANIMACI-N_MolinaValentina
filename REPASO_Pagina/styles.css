@@ -1,0 +1,233 @@
+.barraSuperior{
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    background-color: black;
+    height: 2vw;
+}
+.barraSuperior p{
+    margin-top: -0.1vw;
+}
+.enlaces{
+    width: 22vw;
+    height: 2vw;
+    display: flex;
+    justify-content: space-around;
+}
+.enlaces a{
+    text-decoration: none;
+    color:white;
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+.content1{
+    margin-top: -4.7vw;
+    background-color: #100f11;
+}
+.titulo{
+    position: relative;
+    top: 5vw;
+    font-size: 4.7vw;
+    display: flex;
+    justify-content:center;
+    color: white;
+}
+.content1 .taza1{
+    margin-left: 33vw;
+    width: 35vw;
+}
+.subTitulo{
+    margin-top: 0.8vw;
+    font-size: 4.7vw;
+    display: flex;
+    justify-content:center;
+    color: white;
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+.content2{
+    margin-top: -4.7vw;
+    background-color:black;
+}
+.boton1Pg2 {
+    position: relative;
+    top: 3vw;
+    margin-left:44vw;
+    width: 9vw;
+    height: 2.5vw;
+    display: flex;
+    justify-content: center;
+    background-color: #daa055;
+}
+.boton1Pg2 a{
+    position: relative;
+    top: 0.4vw;
+    color: black;
+    text-decoration: none;    
+}
+.taza2{
+    position: relative;
+    top: 11vw;
+    width: 50vw;
+    height:35vw;
+}
+.subBloquePg1{
+    margin-top: 14vw;
+}
+.tituloPg2{
+    margin-right: 15vw;
+    margin-top: -30vw;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 4.7vw;
+    color: white;
+}
+.linea{
+    margin-right: 1vw;
+    margin-top: 2vw;
+}
+.subBloquePg1 .textoPg2{
+    margin-left: 56vw;
+    margin-top: -3vw;
+    font-size: 1.3vw;
+    color: white;
+}
+.boton2Pg2{
+    position: relative;
+    margin-left:56vw;
+    width: 9vw;
+    height: 2.5vw;
+    display: flex;
+    justify-content: center;
+    background-color: #daa055;
+}
+.boton2Pg2 a{
+    position: relative;
+    top: 0.4vw;
+    color: black;
+    text-decoration: none;  
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+.content3{
+    margin-top: -1vw;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+}
+.subBloquePg3{
+    margin-top: 15vw;
+}
+.tituloPg3{
+    font-size: 4.7vw;
+    color:white;
+}
+.textoPg3{
+    margin-top: -3.6vw;
+    color: white;
+}
+.boton1Pg3{
+    background-color: blueviolet;
+}
+.boton1Pg3{
+    position: relative;
+    width: 9vw;
+    height: 2.5vw;
+    display: flex;
+    justify-content: center;
+    background-color: #daa055;
+}
+.boton1Pg3 a{
+    position: relative;
+    top: 0.4vw;
+    color: black;
+    text-decoration: none;  
+}
+.taza3{
+    margin-top: 14vw;
+    width: 35vw;
+    height: 35vw;
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+.content4{
+    height:57vw;
+    margin-top: -4.7vw;
+    background-color:black;
+}
+.tituloPg4{
+    position: relative;
+    top: 11vw;
+    margin-left: 4vw;
+    font-size: 4.7vw;
+    color: white;
+}
+.cafes{
+    position: relative;
+    top: 17vw;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.taza{
+    margin-top: -4VW;
+    width: 8VW;
+    height: 8VW;
+}
+.cafe{
+    width: 18VW;
+    height: 26VW;
+    text-align: center;
+    border-style: solid;
+    border-color: #daa055;
+    border-radius: 0.3VW;
+}
+.caracteristicas{
+    margin-left: 6vw;
+    text-align: left;
+}
+.boton1Pg4{
+    width: 9vw;
+    height: 2.5vw;
+    margin-left: 5vw;
+    background-color: #daa055;
+}
+.boton1Pg4 a{
+    position: relative;
+    top: 0.3vw;
+    color: black;
+    text-decoration: none;  
+}
+.lineaGrande{
+    position: relative;
+    top: 17.4vw;
+    text-align: center;
+    color: #daa055;
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+.content5{
+    height:25vw;
+    background-color: black;
+}
+.final{
+    padding-top: 6vw;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:black;
+}
+.textoFinal{
+    text-align: center;
+}
+.tituloF{
+    font-size: 2.3vw;
+    color: white;
+}
+.tituloF span{
+    color: #daa055;
+}
+.textoF{
+    font-size: 1.3vw;
+    color: white;
+}
+.lineaGrande2{
+    position: relative;
+    top: 1.4vw;
+    text-align: center;
+    color: #daa055;
+}
