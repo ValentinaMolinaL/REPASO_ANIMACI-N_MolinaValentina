@@ -49,11 +49,11 @@
     width: 2px;
     height: 12px;
     background: #fff;
-    transform-origin: 0 150px;
+    transform-origin: 0 150px;       
     transform: rotate(5deg);
   }
   
-  .niddle {
+  .aguja{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,11 +65,18 @@
     transition: 2s cubic-bezier(1, -0.39, 0.5, 1);
   }
   
-  .content:hover .niddle {
+  .content:hover .aguja {
     transform: translateX(130px) rotate(405deg);
   }
-  
-  .niddle::before {
+  .aguja::after {
+    content: "";
+    position: absolute;
+    top: 150px;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 150px solid white;
+  }
+  .aguja::before {
     content: "";
     position: absolute;
     top: -150px;
@@ -77,13 +84,4 @@
     border-left: 18px solid transparent;
     border-right: 18px solid transparent;
     border-bottom: 150px solid rgb(231, 51, 51);
-  }
-  
-  .niddle::after {
-    content: "";
-    position: absolute;
-    top: 150px;
-    border-left: 18px solid transparent;
-    border-right: 18px solid transparent;
-    border-bottom: 150px solid white;
   }
